@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing">
+<listeners>
+<listener class-name="listener.listenerutil">
+
+</listener>
+</listeners>
+  <test  name="LoginTest">
+    <classes>
+      <class name="TestNGconcepts.LoginTest"/>
+      </classes>
+      </test>
+      
+       <test  name="Loginintosurveymonkeyapplications">
+    <classes>
+      <class name="TestNGconcepts.TC003_Loginintosurveymonkeyapplications"/>
+      </classes>
+      </test>
+      
+      
+        <test  name="Testcasespriority">
+    <classes>
+      <class name="TestNGconcepts.TC002_Testcasespriority"/>
+      </classes>
+      </test>
+      
+         <test  name="firsttestngcode">
+    <classes>
+        <class name="TestNGconcepts.TC001_firsttestngcode"/>
+      </classes>
+      </test>
+      
+    
+  
+</suite> <!-- Suite -->

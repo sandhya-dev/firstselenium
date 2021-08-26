@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smokeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listener.listenerutil"/>
+  </listeners>
+  <test thread-count="5" name="Hardassertions(failed)">
+    <classes>
+      <class name="smokesuite.Hardassertions">
+        <methods>
+          <include name="verifyingvalues"/>
+        </methods>
+      </class> <!-- smokesuite.Hardassertions -->
+    </classes>
+  </test> <!-- Hardassertions(failed) -->
+  <test thread-count="5" name="SoftAssertion(failed)">
+    <classes>
+      <class name="smokesuite.TC004_SoftAssertion">
+        <methods>
+          <include name="verifyvaluesusingassertions"/>
+        </methods>
+      </class> <!-- smokesuite.TC004_SoftAssertion -->
+    </classes>
+  </test> <!-- SoftAssertion(failed) -->
+</suite> <!-- Failed suite [smokeSuite] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUpTest(failed)">
+    <parameter name="url" value="https://www.surveymonkey.com/user/sign-in/"/>
+    <classes>
+      <class name="parameters.SignUpTest">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="signup"/>
+        </methods>
+      </class> <!-- parameters.SignUpTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+  <test thread-count="5" name="LoginTest1(failed)">
+    <parameter name="url" value="https://www.surveymonkey.com/user/sign-in/"/>
+    <classes>
+      <class name="parameters.LoginTest1">
+        <methods>
+          <include name="forgotpassword"/>
+          <include name="loginSOS"/>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="signuplink"/>
+          <include name="logintestpage"/>
+        </methods>
+      </class> <!-- parameters.LoginTest1 -->
+    </classes>
+  </test> <!-- LoginTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

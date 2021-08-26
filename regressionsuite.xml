@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regressionSuite">
+  <test thread-count="5" name="Testcasespriority">
+    <classes>
+      <class name="RegressionSuite.TC002_Testcasespriority"/>
+      </classes>
+      </test>
+      
+      <test  name="firsttestngcode">
+    <classes>
+       <class name="RegressionSuite.TC001_firsttestngcode"/>
+      </classes>
+      </test>
+      
+         <test thread-count="5" name="LoginTest">
+    <classes>
+         <class name="RegressionSuite.LoginTest"/>
+      </classes>
+      </test>
+      
+     
+   
+</suite> <!-- Suite -->
